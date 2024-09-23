@@ -1,0 +1,49 @@
+/*
+    Body
+*/
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+    Header
+*/
+header {
+    background: #1e2935;
+    color: white;
+    padding: 1em 5vw;
+    border-bottom: 1px solid gray;
+}
+
+/*
+    Simple style classes
+*/
+.content-wrapper {
+    max-width: 100em;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text-wrapper {
+    max-width: 20em
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}

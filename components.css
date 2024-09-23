@@ -1,0 +1,73 @@
+/*
+    Header
+*/
+.header-links {
+    gap: 1vw;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/*
+    First Section
+*/
+.jumbotron {
+    background-color: #1e2935;
+    color: white;
+    padding: 64px 128px;
+}
+
+.jumbotron .content-wrapper {
+    gap: 5em;
+}
+
+.jumbotron-image {
+    object-fit: cover;
+    object-position: 60%;
+}
+
+.btn {
+    width: fit-content;
+    padding: 6px 28px;
+    font-weight: 700;
+}
+
+.btn-signup {
+    background-color: #3681f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-signup:hover {
+    background-color: white;
+    color: #3681f4;
+}
+
+/*
+    Second Section
+*/
+.main-section {
+
+}
+
+/*
+    Fourth Section
+*/
+.btn-signup.reverse {
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 6px;
+}
+
+.btn-signup.reverse:hover {
+    background-color: white;
+    color: #3681f4;
+}
