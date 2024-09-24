@@ -21,6 +21,7 @@
     background-color: #1e2935;
     color: white;
     padding: 64px 128px;
+    margin-bottom: 3em;
 }
 
 .jumbotron .content-wrapper {
@@ -53,8 +54,36 @@
 /*
     Second Section
 */
-.main-section {
+.main-section-wrapper {
+    margin-left: 152px;
+    margin-right: 152px;
+}
 
+.main-section {
+    max-width: 60em;
+    gap: 4em;
+    line-height: 1.5em;
+}
+
+.main-section h1 {
+    margin: 0;
+}
+
+.main-section-info {
+    max-width: 44em;
+    text-align: justify;
+    gap: 2em;
+}
+
+.main-section-info p {
+    max-width: 20em;
+}
+
+.main-section-box {
+    width: 20em;
+    height: 10em;
+    border: solid 5px #3680f4;
+    border-radius: 10px;
 }
 
 /*
