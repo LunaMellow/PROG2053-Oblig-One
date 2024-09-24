@@ -63,6 +63,7 @@
     max-width: 60em;
     gap: 4em;
     line-height: 1.5em;
+    margin-bottom: 5em;
 }
 
 .main-section h1 {
@@ -84,6 +85,33 @@
     height: 10em;
     border: solid 5px #3680f4;
     border-radius: 10px;
+}
+
+/*
+    Third Section
+*/
+.jumbotron-light {
+    background-color: #e3e4ea;
+    color: black;
+    font-size: 18px;
+    padding: 76px 128px;
+    margin-bottom: 3em;
+    border: solid 1px #d7d6db;
+}
+
+.jumbotron-light-quote {
+    max-width: 34em;
+}
+
+.jumbotron-light-quote h2 {
+    text-shadow: 1px 4px 10px gray;
+    margin-bottom: 0;
+}
+
+.jumbotron-light-cite {
+    width: 100%;
+    justify-content: end;
+    margin: 0;
 }
 
 /*
