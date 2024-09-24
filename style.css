@@ -20,8 +20,11 @@ header {
 
 footer {
     background-color: #1e2935;
-    padding: 1em;
+    padding: 1em 0;
     color: white;
+    position: sticky;
+    top: calc(100vh - 4em);
+    width: 100%
 }
 
 /*

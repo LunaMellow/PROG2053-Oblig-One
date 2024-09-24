@@ -150,3 +150,37 @@
     background-color: white;
     color: #3681f4;
 }
+
+/*
+    ################ DYNAMIC ################
+*/
+
+/*
+    Cards
+*/
+
+
+
+.cardlist {
+    gap: 1em;
+    padding: 2em;
+    background-color: gray;
+    justify-content: space-between;
+    width: 83em;
+}
+
+.postcard {
+    background-color: #3681f4;
+    border-radius: 5px;
+    padding: 1em;
+    min-width: 6em;
+    max-width: 25em;
+    width: 24vw;
+    flex-grow: 1;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
