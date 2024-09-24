@@ -117,6 +117,28 @@
 /*
     Fourth Section
 */
+.call-signup-wrapper {
+    color: white;
+    margin: 5em 12em;
+}
+
+.call-signup {
+    background-color: #3681f4;
+    padding: 2em 6em;
+    border-radius: 12px;
+    gap: clamp(2em, 4vw, 8em);
+}
+
+.call-signup h3 {
+    margin: 0;
+}
+
+.call-signup button {
+    flex-shrink: 0;
+    height: fit-content;
+    text-wrap: nowrap;
+}
+
 .btn-signup.reverse {
     background-color: transparent;
     color: white;

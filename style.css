@@ -18,6 +18,12 @@ header {
     border-bottom: 1px solid #263341;
 }
 
+footer {
+    background-color: #1e2935;
+    padding: 1em;
+    color: white;
+}
+
 /*
     Simple style classes
 */
