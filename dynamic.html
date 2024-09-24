@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
 
-  <title>PROG2053 Oblig 1</title>
+  <title>Dynamic</title>
 
   <!-- Styling -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,39 +24,16 @@
   <header class="display-flex flex-column align-center">
     <h2>Header Logo</h2>
     <div class="display-flex header-links">
-      <a href="#">Header link one</a>
-      <a href="#">Header link two</a>
-      <a href="#">Header link three</a>
+      <a href="/index.html">Header link one</a>
+      <a href="/dynamic.html">Header link two</a>
+      <a href="/live.html">Header link three</a>
     </div>
   </header>
 
   <!-- Posts -->
   <div class="display-flex justify-center">
-    <div class="display-flex flex-wrap cardlist">
-      <div class="display-flex flex-column postcard">
-        <div>
-          <h5>Title</h5>
-        </div>
-        <div>
-          <p>Body</p>
-        </div>
-      </div>
-      <div class="postcard">
-        <div>
-          <h5>Title</h5>
-        </div>
-        <div>
-          <p>Body</p>
-        </div>
-      </div>
-      <div class="postcard">
-        <div>
-          <h5>Title</h5>
-        </div>
-        <div>
-          <p>Body</p>
-        </div>
-      </div>
+    <div id="entryBox" class="display-flex flex-wrap cardlist">
+      <!-- Dynamic Cards will be loaded here -->
     </div>
   </div>
 
@@ -64,6 +41,6 @@
   <footer class="display-flex align-center justify-center">
     <p>Copyright ©</p>
   </footer>
-<script type="application/javascript" src="script.js"></script>
+<script type="application/javascript" src="dynamic.js"></script>
 </body>
 </html>

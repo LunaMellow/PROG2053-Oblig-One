@@ -159,25 +159,34 @@
     Cards
 */
 
-
-
 .cardlist {
     gap: 1em;
     padding: 2em;
-    background-color: gray;
     justify-content: space-between;
     width: 83em;
 }
 
 .postcard {
-    background-color: #3681f4;
+    background-color: #cccccc;
     border-radius: 5px;
-    padding: 1em;
+    border: solid 2px #b1b1b1;
+    box-sizing: border-box;
     min-width: 6em;
     max-width: 25em;
     width: 24vw;
     flex-grow: 1;
     position: relative;
+}
+
+.postcard-header {
+    padding: 0 1.5em 0 1.5em;
+    border-bottom: solid 1px #b1b1b1;
+}
+
+.postcard-body {
+    background-color: white;
+    height: 100%;
+    padding: 0 1.5em 0 1.5em;
 }
 
 @media (min-width: 1000px) {
