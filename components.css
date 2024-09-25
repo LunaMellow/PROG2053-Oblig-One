@@ -193,3 +193,74 @@
     flex: 0 0 25%;
     max-width: 25%;
 }
+
+/*
+    ################ Live ################
+*/
+
+/*
+    Weatherbox
+*/
+
+.cardlist-weather {
+    gap: 1em;
+    padding: 2em;
+    justify-content: center;
+    width: 80em;
+}
+
+.weatherbox {
+    background-color: #3681f4;
+    color: white;
+    border-radius: 8px;
+    width: 18em;
+    border: solid 1px #2b69c7;
+}
+
+.weatherbox .card-header {
+    padding: 1em;
+    border-bottom: solid 1px #2b69c7;
+}
+
+.weatherbox .card-header svg {
+    width: 1em;
+}
+
+.weatherbox .card-header h1 {
+    margin-right: auto;
+}
+
+.weatherbox .card-body {
+    padding: 0 1em 1em 1em;
+
+}
+
+.top-info div {
+    margin-left: auto;
+    gap: .25em;
+}
+
+.top-info div p {
+    font-size: 18px;
+}
+
+.top-info div svg {
+    width: .75em;
+}
+
+
+.infobox-wrapper {
+    gap: 1em;
+}
+
+.infobox {
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 0 1em;
+    gap: .5em;
+    color: white;
+}
+
+.infobox svg {
+    width: 1em;
+}
